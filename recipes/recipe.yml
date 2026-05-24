@@ -1,5 +1,5 @@
 # yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
-name: My_Bazzite
+name: my_bazzite # <-- MUST be lowercase to satisfy OCI registry standards
 description: Custom gaming OS image for the Steam Deck with RetroDeck, Ryujinx, and autostarting Syncthing.
 
 base-image: ghcr.io/ublue-os/bazzite-deck
@@ -31,8 +31,8 @@ modules:
         scope: system
         install: 
           - org.mozilla.firefox
-          - net.retrodeck.retrodeck # Installs RetroDeck system-wide
-          - io.github.ryubing.Ryujinx # Installs the active community Ryujinx build
+          - net.retrodeck.retrodeck 
+          - io.github.ryubing.Ryujinx 
       - scope: user 
 
   - type: signing
