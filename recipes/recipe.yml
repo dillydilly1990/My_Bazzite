@@ -31,7 +31,6 @@ modules:
         scope: system
         install: 
           - org.mozilla.firefox
-          - org.gnome.Loupe
           - net.retrodeck.retrodeck # Installs RetroDeck system-wide
           - io.github.ryubing.Ryujinx # Installs the active community Ryujinx build
       - scope: user 
