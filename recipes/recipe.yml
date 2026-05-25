@@ -36,7 +36,4 @@ modules:
       enabled:
         - syncthing.service    # User-space home directory mirror process
 
-  - type: script
-    snippets:
-      - ujust setup-decky install # Automates first-boot environment staging for Game Mode components
 
