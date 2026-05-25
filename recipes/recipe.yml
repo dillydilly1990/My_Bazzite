@@ -14,8 +14,7 @@ modules:
   - type: rpm-ostree
     install:
       - micro
-      - syncthing 
-#    remove:
+      - syncthing
 
   - type: default-flatpaks
     configurations:
@@ -41,4 +40,3 @@ modules:
     snippets:
       - ujust setup-decky install # Automates first-boot environment staging for Game Mode components
 
-  - type: signing
